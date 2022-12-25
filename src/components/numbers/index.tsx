@@ -79,9 +79,9 @@ const Numbers: React.FC<Props> = ({
     <div className="  w-full items-center lg:rounded-3xl h-full lg:flex lg:flex-col bg-gray-900 mt-24 lg:mt-0 ">
       <div className="lg:flex lg:flex-row">
         <div className="flex flex-1 lg:flex  lg:w-96 lg:h-80 lg:-mr-20 lg:mt-20 ">
-          <div className="lg:flex flex-col lg:h-32 lg:flex-col ml-8  lg:ml-8      ">
+          <div className="lg:flex flex-col lg:h-32 lg:flex-col ml-8  lg:ml-8">
             <Button
-              className="lg:mr-10 text-5xl   "
+              className="lg:mr-10 text-5xl"
               value={7}
               onClick={() => {
                 if (quant < 15) {

@@ -9,7 +9,7 @@ import Value from "../components/spaceValue";
 
 const Home: NextPage = () => {
   return (
-    <div className="w-screen h-screen bg-gray-700 flex flex-1 justify-center items-center">
+    <div className="w-screen h-screen bg-gray-100 flex flex-1 justify-center items-center">
       <Calculator></Calculator>
     </div>
   );
